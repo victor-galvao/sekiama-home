@@ -411,3 +411,64 @@ nav a:hover {
   margin-top: 20px;  
 }
 
+.container-comentario {
+  background-image: url("img/fundo-secao-comentario.png");
+  display: flex;
+  flex-direction: column;  
+  margin-top: 100px; 
+}
+
+.container-comentario h1 {
+  font-size: 42px;
+  text-transform: uppercase;  
+  text-align: center;
+  font-family: 'Train One', cursive;
+  color: #FEFEFE;
+  margin-top: 80px;
+}
+
+.container-comentario h2 {
+  line-height: 19.04px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #FEFEFE;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: .2rem;
+}
+
+.item-comentario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.item-comentario aside {
+  display: flex;
+  align-items: center;
+  background-color: #FEFEFE;
+  width: 679px;
+  height: 321px;
+  margin-bottom: 50px;
+}
+
+.item-comentario img {
+  width: 172.67px;
+  height: 157px;
+  margin-left: 20px;
+}
+
+.comentario-texto {
+  margin-left: 20px;
+}
+
+.comentario-texto p {
+  font-size: 22px; 
+  margin-bottom: 5px; 
+}
+
+.comentario-texto span {
+  color: #3BA46B;
+  font-family: Gotham Bold;  
+}

@@ -246,7 +246,8 @@ nav a:hover {
 
 .item-beneficios {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: flex-end;  
 }
 
@@ -279,6 +280,8 @@ nav a:hover {
 .item-farofa {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .container-farofa h1 {
@@ -322,3 +325,89 @@ nav a:hover {
   color: #3BA46B;
   margin-top: 15px;
 }
+
+.container-kit {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 43px;
+}
+
+.kit-logo {
+  height: 55px;
+  width: 45px;
+  margin-bottom: 13px;
+}
+
+.container-kit h1 {
+  font-size: 42px;
+  text-transform: uppercase;  
+  text-align: center;
+  font-family: 'Train One', cursive;
+  color: #045C38;
+}
+
+.container-kit h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.item-kit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.item-kit img {
+  width: 197px;
+  height: 185.22px;
+}
+
+.item-kit aside h3 {
+  font-family: Gotham Bold;
+  font-size: 18px;
+  line-height: 15.47px;  
+  text-align: center;
+}
+
+.item-kit aside p {
+  text-align: center;
+  line-height: 14.28px;
+  margin-top: 10px;  
+  margin-bottom: 15px;
+}
+
+.item-kit aside p:first-child {
+  margin-bottom: 20px;
+}
+
+.item-kit aside p:last-child {
+  font-size: 18px;
+  color: #3BA46B;
+  margin-top: 15px;
+  line-height: 16.66px;  
+}
+
+.item-kit aside span {
+  font-family: Gotham Bold;  
+  font-size: 25px;
+  line-height: 22.1px;  
+  text-align: center;
+  margin-left: 38px;  
+}
+
+.banner-kit {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-evenly;
+  width: 100%;   
+}
+
+.banner-kit img {
+  width: 600px;
+  height: 298px;  
+  margin-top: 20px;  
+}
+

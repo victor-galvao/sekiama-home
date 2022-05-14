@@ -262,3 +262,63 @@ nav a:hover {
 .item-beneficios p {
   text-align: center;
 }
+
+.container-farofa {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 43px;
+}
+
+.farofa-logo {
+  height: 55px;
+  width: 45px;
+  margin-bottom: 13px;
+}
+
+.item-farofa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-farofa h1 {
+  font-size: 42px;
+  text-transform: uppercase;  
+  text-align: center;
+  font-family: 'Train One', cursive;
+  color: #045C38;
+}
+
+.container-farofa h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.item-farofa aside {
+  margin: 50px
+}
+
+.item-farofa img {
+  height: 372px;
+  width: 250px;  
+}
+
+.item-farofa h3 {
+  font-family: Gotham Bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item-farofa span {
+  font-family: Gotham Bold;
+  font-size: 25px;
+  line-height: 22.1px;
+  margin-left: 75px;
+}
+
+.item-farofa p {
+  font-size: 20px;
+  color: #3BA46B;
+  margin-top: 15px;
+}

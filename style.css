@@ -430,7 +430,6 @@ nav a:hover {
 .container-comentario h2 {
   line-height: 19.04px;
   font-size: 18px;
-  margin-top: 10px;
   color: #FEFEFE;
   text-align: center;
   margin-top: 20px;
@@ -568,4 +567,59 @@ nav a:hover {
       height: 445px;
     width: 342px; 
 }
+}
+
+.container-galeria {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-galeria {
+  height: 55px;
+  width: 45px;
+}
+
+.container-galeria h1 {
+  font-size: 30px;
+  text-transform: uppercase;    
+  font-family: 'Train One', cursive;
+  color: #045C38;   
+  text-align: center;
+}
+
+.container-galeria h2 {
+  line-height: 19.04px;
+  font-size: 18px;
+  margin-top: 10px;  
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: .1rem;
+}
+
+.item-galeria {
+  display: grid;    
+  grid-template-columns: 1fr 1fr 1fr; 
+  
+}
+
+.item-galeria aside {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 864px) {
+
+  .item-galeria {     
+    grid-template-columns: 1fr 1fr;   
+}
+
+}
+
+@media only screen and (max-width: 587px) {
+
+  .item-galeria {
+    grid-template-columns: 1fr;   
+}
+
 }

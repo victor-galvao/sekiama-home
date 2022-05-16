@@ -764,3 +764,101 @@ nav a:hover {
    flex-direction: column;
   }
 }
+
+.container-newsletter {
+  background-image: url(img/newsletter-fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container-newsletter h1 {
+  font-size: 40px;
+  text-transform: uppercase;    
+  font-family: Gotham Bold,cursive;
+  color: #fff;   
+  text-align: center;  
+  margin-top: 100px;
+}
+
+.container-newsletter h2 {
+  color: #fff;
+  line-height: 19.04px;
+  font-size: 18px;
+  margin-top: 10px;  
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: .1rem;
+}
+
+
+#form_letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;  
+}
+
+#nomeLetter{
+  display: flex;
+  background-color: #FEFEFE;
+  border:none;  
+  width:440px;  
+  box-sizing: border-box;
+  height: 40px;  
+  margin-top: 30px;  
+  margin-right: 10px;
+}
+
+#txtNome{  
+  background-color: #FEFEFE;
+  font-family: Gotham Bold, cursive;
+  padding: 30px;
+  font-size: 15px;
+  border: none; 
+  height: 100%;
+  width:440px;
+}
+
+#emailLetter{
+  display: flex;
+  background-color: #FEFEFE;
+  border:none;  
+  width:440px;  
+  box-sizing: border-box;
+  height: 40px;  
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#txtEmail{  
+  background-color: #FEFEFE;
+  font-family: Gotham Bold, cursive;
+  padding: 30px;
+  font-size: 15px;
+  border: none; 
+  height: 100%;
+  width: 440px;
+}
+
+.btn-newsletter { 
+  background-color: #3BA46B;
+  border: none;
+  color: white;
+  width: 186.85px;
+  height: 39.2px;
+  text-align: center;
+  text-decoration: none;  
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}

@@ -629,6 +629,7 @@ nav a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .container-faq h1 {
@@ -691,4 +692,75 @@ nav a:hover {
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 40px;
+}
+
+.container-local {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-local {
+  margin-bottom: 15px;
+}
+
+.container-local h1 {
+  font-size: 30px;
+  text-transform: uppercase;    
+  font-family: 'Train One', cursive;
+  color: #045C38;   
+  text-align: center;
+}
+
+.item-local {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+.item-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item-logos img:first-child, img:nth-child(2){
+  margin-right: 50px;
+}
+
+.texto-local {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.texto-local img {
+  width: 68px;
+  height: 63px;    
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.texto-local h2 {
+  font-size: 30px;
+  text-transform: uppercase;    
+  font-family: 'Train One', cursive;
+  color: #045C38;   
+  text-align: center;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 1111px) {
+
+  .texto-local {
+   display: flex;   
+   flex-direction: column;
+  }
 }
